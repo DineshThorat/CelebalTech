@@ -33,3 +33,6 @@ let undefinedValue;
 console.log("Undefined Value:", undefinedValue);
 
 console.log(typeof(null));
+console.log(typeof('0'));
+console.log(typeof(0));
+console.log(typeof(true));
