@@ -36,8 +36,18 @@ const person = {
 // For...of Loop
 const numbers = [1, 2, 3, 4, 5];
 
-for (let number of numbers) {
+for (let number of numbers) {  //of li jagah in print index of array
   console.log("Number:", number);
 }
 
   
+let arr = [1,2,3,4,5,6]
+
+arr.forEach(item,index,array)=>{
+  console.log(item,index)
+}
+
+const newArray = arr.map((item) =>{
+  return item*2
+})
+console.log(newArray);
